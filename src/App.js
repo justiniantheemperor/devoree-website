@@ -24,11 +24,11 @@ import CssBaseline from "@mui/material/CssBaseline";
 
 // Material Kit 2 React themes
 import theme from "assets/theme";
-import Home from "layouts/pages/home";
-
-
-// Material Kit 2 React routes
 import routes from "routes";
+
+import HomePage from "layouts/pages/home";
+import HeadshotsPage from "layouts/pages/headshots";
+import ReelsPage from "layouts/pages/reels";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -57,7 +57,10 @@ export default function App() {
       <CssBaseline />
       <Routes>
         {getRoutes(routes)}
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/reels" element={<ReelsPage />} />
+        <Route path="/headshots" element={<HeadshotsPage />} />
+
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </ThemeProvider>
