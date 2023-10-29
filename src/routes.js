@@ -40,7 +40,8 @@ Coded by www.creative-tim.com
 import Icon from "@mui/material/Icon";
 
 // @mui icons
-
+import InstagramIcon from "@mui/icons-material/Instagram";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 
 // Pages
 import ReelsPage from "layouts/pages/reels";
@@ -58,6 +59,16 @@ const routes = [
     icon: <Icon>view_day</Icon>,
     route: "/pages/reels",
     component: <ReelsPage />,
+  },
+  {
+    // name: "Instagram",
+    icon: <InstagramIcon />,
+    link: "https://github.com/creativetimofficial",
+  },
+  {
+    // name:"Youtube",
+    icon: <YouTubeIcon />,
+    link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
   },
 ];
 
