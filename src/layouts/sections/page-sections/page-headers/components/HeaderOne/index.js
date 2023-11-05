@@ -29,7 +29,7 @@ import bgImage from "assets/images/bg-coworking.jpeg";
 
 function HeaderOne() {
   return (
-    <MKBox component="header" position="relative" height="100%">
+    <MKBox component="header" position="relative" height="100%" minHeight="40rem">
       <MKBox component="nav" position="absolute" top="0.5rem" width="100%">
         <Container>
           <Grid container flexDirection="row" alignItems="center">

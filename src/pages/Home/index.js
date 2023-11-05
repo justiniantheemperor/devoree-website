@@ -32,6 +32,7 @@ import Information from "pages/Home/sections/Information";
 import Team from "pages/Home/sections/Team";
 import Featuring from "pages/Home/sections/Featuring";
 import Newsletter from "pages/Home/sections/Newsletter";
+import Header from "pages/Home/sections/Header";
 
 // Routes
 import routes from "routes";
@@ -43,7 +44,8 @@ import bgImage from "assets/images/bg-about-us.jpg";
 function Home() {
   return (
     <>
-      <DefaultNavbar
+      <Header/>
+      {/* <DefaultNavbar
         routes={routes}
         action={{
           type: "external",
@@ -117,7 +119,7 @@ function Home() {
             </MKBox>
           </Grid>
         </Container>
-      </MKBox>
+      </MKBox> */}
       <Card
         sx={{
           p: 2,
