@@ -30,6 +30,8 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 // About Us page sections
 import About from "pages/Home/sections/About";
 import CurrentProject from "pages/Home/sections/CurrentProject"
+import Reels from "pages/Home/sections/Reels"
+
 
 import Team from "pages/Home/sections/Team";
 import Featuring from "pages/Home/sections/Featuring";
@@ -49,7 +51,7 @@ function Home() {
       <Header/>
         <About />
         <CurrentProject/>
-        <Team />
+        <Reels />
         <Featuring />
         <Newsletter />
       <MKBox pt={6} px={1} mt={6}>
