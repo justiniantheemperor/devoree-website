@@ -21,7 +21,7 @@ import MKButton from "components/MKButton";
 import MKBox from "components/MKBox";
 
 // Images
-import bgImage from "assets/images/headshots/main.jpg";
+import bgImage from "assets/images/headshots/happy.jpg";
 
 function About() {
   return (
