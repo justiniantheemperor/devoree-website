@@ -18,73 +18,76 @@ import { Box, Container, Grid, Typography } from "@mui/material";
 
 // Material Kit 2 React components
 import MKButton from "components/MKButton";
+import MKBox from "components/MKBox";
+
+import Featuring from "pages/Home/sections/Featuring";
+import CurrentProject from "pages/Home/sections/CurrentProject";
 
 // Images
-import bgImage from "assets/images/headshots/main.jpg";
+import aboutMe from "assets/images/headshots/main.jpg";
 
 function About() {
   return (
-    <Box py={{ xs: 0, lg: 6 }}>
+    <MKBox
+      component="section"
+      variant="gradient"
+      bgColor="dark"
+      position="relative"
+      py={6}
+      px={{ xs: 2, lg: 0 }}
+      mx={-2}
+    >
       <Container>
-        <Grid container item>
-          <Box
+        <Grid container spacing={2}>
+          <Grid
+            item
+            xs={12}
+            lg={5}
+            position="relative"
             width="100%"
-            bgColor="white"
-            borderRadius="xl"
-            shadow="xl"
-            mb={6}
-            sx={{ overflow: "hidden" }}
+            sx={{
+              display: "flex",
+              flexWrap: "wrap",
+              alignContent: "center",
+              justifyContent: "center",
+            }}
           >
-            <Grid container spacing={2}>
-              <Grid
-                item
-                xs={12}
-                lg={5}
-                position="relative"
-                width="100%"
-                sx={{
-                  display: "flex",
-                  flexWrap: "wrap",
-                  alignContent: "center",
-                  justifyContent:"center",
-                }}
-              >
-                <Box
-                  component="img"
-                  alt="Devoree Headshot"
-                  src={bgImage}
-                  height="30rem"
-                />
-              </Grid>
-              <Grid
-                item
-                xs={12}
-                lg={7}
-                sx={{
-                  display: "flex",
-                  flexWrap: "wrap",
-                  alignContent: "center",
-                }}
-              >
-                <Box px={3} py={{ xs: 2, sm: 6 }}>
-                  <Typography variant="h2" mb={1}>
-                    About Me
-                  </Typography>
-                  <Typography variant="body1" color="text" mb={2}>
-                    Devoree is from Orange County, California. She completed her
-                    training in April 2024, receiving a BFA in Acting from
-                    Brigham Young University.
-                  </Typography>
-                  <MKButton variant="gradient" color="info">
-                    Send Message
-                  </MKButton>
-                </Box>
-              </Grid>
-            </Grid>
-          </Box>
+            <Box
+              component="img"
+              alt="Devoree Headshot"
+              src={aboutMe}
+              height="30rem"
+            />
+          </Grid>
+          <Grid
+            item
+            xs={12}
+            lg={7}
+            sx={{
+              display: "flex",
+              flexWrap: "wrap",
+              alignContent: "center",
+            }}
+          >
+            <Box px={3} py={{ xs: 2, sm: 6 }}>
+              <Typography variant="h1" color="white" mb={1}>
+                About Me
+              </Typography>
+              <Typography variant="body1" color="white" opacity={0.8} mb={2}>
+                Devoree is from Orange County, California. She completed her
+                training in April 2024, receiving a BFA in Acting from Brigham
+                Young University.
+              </Typography>
+              <MKButton variant="gradient" color="info">
+                Send Message
+              </MKButton>
+            </Box>
+          </Grid>
         </Grid>
+        <Featuring />
+        <CurrentProject />
       </Container>
-    </Box>
+    </MKBox>
   );
 }
 
