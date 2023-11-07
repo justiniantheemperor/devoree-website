@@ -13,12 +13,22 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
+// @mui material components
+import Container from "@mui/material/Container";
+import Grid from "@mui/material/Grid";
+import Card from "@mui/material/Card";
+
+// Material Kit 2 React components
+import MKBox from "components/MKBox";
+import MKTypography from "components/MKTypography";
+import MKButton from "components/MKButton";
+
 // About Us page sections
 import Header from "pages/Home/sections/Header";
 import About from "pages/Home/sections/About";
 import Reels from "pages/Home/sections/Reels";
 import Gallery from "pages/Home/sections/Gallery";
-// import Contact from "pages/Home/sections/Contact";
+import Contact from "pages/Home/sections/Contact";
 import Footer from "pages/Home/sections/Footer";
 
 // Routes
@@ -31,7 +41,7 @@ function Home() {
       <About />
       <Reels />
       <Gallery />
-      {/* <Contact /> */}
+      <Contact />
       <Footer content={footerRoutes} />
     </>
   );
