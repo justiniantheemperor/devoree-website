@@ -31,6 +31,7 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 import About from "pages/Home/sections/About";
 import CurrentProject from "pages/Home/sections/CurrentProject"
 import Reels from "pages/Home/sections/Reels"
+import Gallery from "pages/Home/sections/Gallery"
 
 
 import Team from "pages/Home/sections/Team";
@@ -52,6 +53,7 @@ function Home() {
         <About />
         <CurrentProject/>
         <Reels />
+        <Gallery />
         <Featuring />
         <Newsletter />
       <MKBox pt={6} px={1} mt={6}>
