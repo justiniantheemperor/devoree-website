@@ -21,12 +21,56 @@ Coded by www.creative-tim.com
 
 export default {
   background: {
-    default: "#f0f2f5",
+    default: "#222222",
   },
 
+  // my custom colors
+
+  // offwhite1: {
+  //   main: "#EDDED4",
+  //   focus: "#E7D3C5",
+  // },
+
+  // tan1: {
+  //   main: "#DFC4B0",
+  //   focus: "#CFA88A",
+  // },
+
+  // tan2: {
+  //   main: "#CFA88A",
+  //   focus: "#CA9E7D",
+  // },
+
+  // tan3: {
+  //   main: "#9C7654",
+  //   focus: "#926E4F",
+  // },
+
+  // tan4: {
+  //   main: "#CFA88A",
+  //   focus: "#CA9E7D",
+  // },
+
+  // coral: {
+  //   main: "#E7827F",
+  //   focus: "#E57A76",
+  // },
+
+  // red1: {
+  //   main: "#5C1E2C",
+  //   focus: "#4D1926",
+  // },
+
+  // red2: {
+  //   main: "#3E141D",
+  //   focus: "#2E0F16",
+  // },
+
+  // end custom colors //
+
   text: {
-    main: "#7b809a",
-    focus: "#7b809a",
+    main: "#5C1E2C",
+    focus: "#4D1926",
   },
 
   transparent: {
@@ -55,8 +99,8 @@ export default {
   },
 
   info: {
-    main: "#1A73E8",
-    focus: "#1662C4",
+    main: "#E7827F",
+    focus: "#E57A76",
   },
 
   success: {
@@ -80,8 +124,8 @@ export default {
   },
 
   dark: {
-    main: "#344767",
-    focus: "#2c3c58",
+    main: "#E7827F",
+    focus: "#E57A76",
   },
 
   grey: {
@@ -108,8 +152,8 @@ export default {
     },
 
     info: {
-      main: "#49a3f1",
-      state: "#1A73E8",
+      main: "#E7827F",
+      state: "#E57A76",
     },
 
     success: {

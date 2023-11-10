@@ -14,14 +14,15 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Box, Container, Grid } from "@mui/material";
 
 // Material Kit 2 React components
 import MKButton from "components/MKButton";
+import MKTypography from "components/MKTypography";
 import MKBox from "components/MKBox";
 
 // Images
-import projectImg from "assets/images/headshots/happy.jpg";
+import projectImg from "assets/images/projects/2024-house-of-desires.jpg";
 
 function CurrentProject() {
   return (
@@ -47,20 +48,20 @@ function CurrentProject() {
         }}
       >
         <Box px={3} py={{ xs: 2, sm: 6 }}>
-          <Typography variant="h2" mb={1}>
+          <MKTypography variant="h3" color="white" mb={1}>
             Current Project
-          </Typography>
-          <Typography variant="h4" mb={1}>
+          </MKTypography>
+          <MKTypography variant="h5"  color="white" opacity={0.9}  mb={1}>
             House of Desires - BYU
-          </Typography>
-          <Typography variant="h4" mb={1}>
+          </MKTypography>
+          <MKTypography variant="h5"  color="white" opacity={0.9}  mb={1}>
             Role: Ana
-          </Typography>
-          <Typography variant="body1" color="text" mb={2}>
+          </MKTypography>
+          <MKTypography variant="body2" color="white" opacity={0.8} mb={2}>
             Devoree is from Orange County, California. She completed her
             training in April 2024, receiving a BFA in Acting from Brigham Young
             University.
-          </Typography>
+          </MKTypography>
           <MKButton variant="gradient" color="info">
             Learn More
           </MKButton>

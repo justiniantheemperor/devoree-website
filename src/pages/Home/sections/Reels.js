@@ -25,12 +25,11 @@ function Reels() {
   return (
     <MKBox
       component="section"
-      variant="gradient"
-      bgColor="dark"
       position="relative"
       py={6}
       px={{ xs: 2, lg: 0 }}
       mx={-2}
+      sx={{ background: "linear-gradient(195deg, #5C1E2C, #1F0A0F)"}}
     >
       <Container>
         <Grid

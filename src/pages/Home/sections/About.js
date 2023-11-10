@@ -14,11 +14,12 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Box, Container, Grid } from "@mui/material";
 
 // Material Kit 2 React components
 import MKButton from "components/MKButton";
 import MKBox from "components/MKBox";
+import MKTypography from "components/MKTypography";
 
 import Featuring from "pages/Home/sections/Featuring";
 import CurrentProject from "pages/Home/sections/CurrentProject";
@@ -70,14 +71,14 @@ function About() {
             }}
           >
             <Box px={3} py={{ xs: 2, sm: 6 }}>
-              <Typography variant="h1" color="white" mb={1}>
+              <MKTypography variant="h1" color="white" mb={1}>
                 About Me
-              </Typography>
-              <Typography variant="body1" color="white" opacity={0.8} mb={2}>
+              </MKTypography>
+              <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
                 Devoree is from Orange County, California. She completed her
                 training in April 2024, receiving a BFA in Acting from Brigham
                 Young University.
-              </Typography>
+              </MKTypography>
               <MKButton variant="gradient" color="info">
                 Send Message
               </MKButton>
