@@ -22,7 +22,7 @@ import MKTypography from "components/MKTypography";
 import MKBox from "components/MKBox";
 
 // Images
-import projectImg from "assets/images/projects/2024-house-of-desires.jpg";
+import projectImg from "assets/images/graphics/2024-house-of-desires.jpg";
 
 function CurrentProject() {
   return (

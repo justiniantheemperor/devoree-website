@@ -154,15 +154,15 @@ class BannerExample extends React.Component {
 
   render() {
     return (
-      <MKBox
-        component="section"
-        variant="gradient"
-        bgColor="dark"
-        position="relative"
-        py={6}
-        px={{ xs: 2, lg: 0 }}
-        mx={-2}
-      >
+      // <MKBox
+      //   component="section"
+      //   variant="gradient"
+      //   bgColor="dark"
+      //   position="relative"
+      //   py={6}
+      //   px={{ xs: 2, lg: 0 }}
+      //   mx={-2}
+      // >
         <Container>
           <Grid item xs={12} md={8} sx={{ mb: 6, textAlign: "center" }}>
             <MKTypography variant="h3" color="white">
@@ -189,7 +189,7 @@ class BannerExample extends React.Component {
             </Carousel>
           </Card>
         </Container>
-      </MKBox>
+      // </MKBox>
     );
   }
 }

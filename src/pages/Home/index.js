@@ -27,6 +27,7 @@ import MKButton from "components/MKButton";
 import Header from "pages/Home/sections/Header";
 import About from "pages/Home/sections/About";
 import Reels from "pages/Home/sections/Reels";
+import Resume from "pages/Home/sections/Resume";
 import Gallery from "pages/Home/sections/Gallery";
 import Contact from "pages/Home/sections/Contact";
 import Footer from "pages/Home/sections/Footer";
@@ -40,8 +41,20 @@ function Home() {
       <Header />
       <About />
       <Reels />
-      <Gallery />
-      <Contact />
+      <MKBox
+        component="section"
+        position="relative"
+        py={6}
+        px={{ xs: 2, lg: 0 }}
+        mx={-2}
+        sx={{
+          background: "linear-gradient(195deg, #42424a, #191919, #42424a, #191919)",
+        }}
+      >
+        <Resume />
+        <Gallery />
+        <Contact />
+      </MKBox>
       <Footer content={footerRoutes} />
     </>
   );
