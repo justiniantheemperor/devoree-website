@@ -13,6 +13,8 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
+import React from "react";
+
 // @mui material components
 import {
   Avatar,
@@ -22,6 +24,7 @@ import {
   Grid,
   Card,
   CardMedia,
+  Grow,
 } from "@mui/material";
 
 import DownloadIcon from "@mui/icons-material/Download";
@@ -38,6 +41,8 @@ import Icon from "assets/theme/components/icon";
 import resume from "assets/files/Devoree-Ellis-HR.pdf";
 
 function Resume() {
+  const [hovered, setHovered] = React.useState(false);
+
   const onDownload = () => {
     const link = document.createElement("a");
     link.href = resume;
@@ -63,27 +68,67 @@ function Resume() {
         sx={{ mb: 2, display: "flex", justifyContent: "center" }}
       >
         <Card
+          onMouseEnter={() => setHovered(true)}
+          onMouseLeave={() => setHovered(false)}
           sx={{
+            height: "25rem",
+
             background: "linear-gradient(180deg, #E7827F, #F9DCDC)",
             alignItems: "center",
+            justifyContent: "center",
+            width: "100%",
             "&:hover": {
+              background:
+                "linear-gradient(180deg, rgba(231, 130, 127, .7), rgba(249, 220, 220, .7))",
+              transition: "1s",
               ".MuiCardMedia-root": {
                 transform: "scale3d(1.06, 1.06, 1)",
+                transition: "transform 0.5s",
               },
             },
           }}
         >
           <CardMedia
             className="Media"
-            component="img"
+            // component="img"
             image={resumeGraphic}
-            title="Click below to download Devoree's Headshot/Resume"
-            onClick={onDownload} 
+            title="Click to download Devoree's Headshot/Resume"
+            onClick={onDownload}
             sx={{
-              width: "70%",
+              backgroundSize: "contain",
+              height: "100%",
+              width: "80%",
               marginBottom: "1.5rem",
+              //   paddingBottom: "35%",
+              display: "flex",
+              //   flexDirection: "column",
+              //   alignItems: "start", // Center horizontally
+              alignContent: "start",
+              justifyContent: "center", // Center vertically
             }}
           ></CardMedia>
+          <Grow in={hovered}>
+            <Button
+              onClick={onDownload}
+              title="Download Headshot/Resume"
+              sx={{
+                height: "10rem",
+                width: "10rem",
+                position: "absolute",
+              }}
+            >
+              <DownloadIcon
+                sx={{
+                  height: "100%",
+                  width: "100%",
+                  color: "#F8DFDD",
+                  "&:hover": {
+                    color: "#FCEFEE",
+                  },
+                }}
+              />
+            </Button>
+          </Grow>
         </Card>
       </Grid>
       <Grid item xs={12} md={8} sx={{ mb: 6, textAlign: "center" }}>
