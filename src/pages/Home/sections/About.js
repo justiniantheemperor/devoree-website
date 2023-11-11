@@ -25,7 +25,7 @@ import Featuring from "pages/Home/sections/Featuring";
 import CurrentProject from "pages/Home/sections/CurrentProject";
 
 // Images
-import aboutMe from "assets/images/headshots/main.jpg";
+import aboutMe from "assets/images/graphics/main.jpg";
 
 function About() {
   return (

@@ -31,7 +31,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Image
-import bgImage from "assets/images/headshots/main.jpg";
+import bgImage from "assets/images/graphics/main.jpg";
 
 function Headshots() {
   return (

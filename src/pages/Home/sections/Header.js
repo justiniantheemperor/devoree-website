@@ -25,7 +25,7 @@ import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
 // Images
-import bgImage from "assets/images/headshots/main.jpg";
+import bgImage from "assets/images/graphics/main.jpg";
 
 function Header() {
   return (

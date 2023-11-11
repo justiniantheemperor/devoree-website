@@ -72,7 +72,10 @@ function Resume() {
           onMouseLeave={() => setHovered(false)}
           sx={{
             height: "25rem",
-
+            "@media (max-width: 770px)": {
+                // Adjust the height for screens below 770px
+                height: "15rem",
+            },
             background: "linear-gradient(180deg, #E7827F, #F9DCDC)",
             alignItems: "center",
             justifyContent: "center",

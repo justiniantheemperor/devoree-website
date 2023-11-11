@@ -9,22 +9,22 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Headshots
-import main1 from "assets/images/headshots/Devoree.1a.jpg";
+// import main1 from "assets/images/headshots/Devoree.1a.jpg";
 import main2 from "assets/images/headshots/Devoree.1b.jpg";
-import main3 from "assets/images/headshots/Devoree.1c.jpg";
+// import main3 from "assets/images/headshots/Devoree.1c.jpg";
 
 import dark1 from "assets/images/headshots/Devoree.2a.jpg";
 import dark2 from "assets/images/headshots/Devoree.2b.jpg";
 import dark3 from "assets/images/headshots/Devoree.2c.jpg";
 import dark4 from "assets/images/headshots/Devoree.2d.jpg";
-import dark5 from "assets/images/headshots/Devoree.2e.jpg";
-// import dark6 from "assets/images/headshots/Devoree.2f.jpg";
+// import dark5 from "assets/images/headshots/Devoree.2e.jpg";
+import dark6 from "assets/images/headshots/Devoree.2f.jpg";
 import dark7 from "assets/images/headshots/Devoree.2g.jpg";
 
-import happy1 from "assets/images/headshots/Devoree.3a.jpg";
-// import happy2 from "assets/images/headshots/Devoree.3b.jpg";
+// import happy1 from "assets/images/headshots/Devoree.3a.jpg";
+import happy2 from "assets/images/headshots/Devoree.3b.jpg";
 import happy3 from "assets/images/headshots/Devoree.3c.jpg";
-import happy4 from "assets/images/headshots/Devoree.3d.jpg";
+// import happy4 from "assets/images/headshots/Devoree.3d.jpg";
 
 function Banner(props) {
   const isSmallScreen = useMediaQuery("(max-width:770px)");
@@ -63,13 +63,13 @@ const items = [
   {
     Items: [
       {
-        Image: main1,
-      },
-      {
-        Image: dark1,
+        Image: dark4,
       },
       {
         Image: happy3,
+      },
+      {
+        Image: dark2,
       },
     ],
   },
@@ -79,7 +79,7 @@ const items = [
         Image: dark3,
       },
       {
-        Image: main3,
+        Image: main2,
       },
       {
         Image: dark7,
@@ -89,26 +89,13 @@ const items = [
   {
     Items: [
       {
-        Image: happy1,
+        Image: happy2,
       },
       {
-        Image: dark4,
+        Image: dark6,
       },
       {
-        Image: main2,
-      },
-    ],
-  },
-  {
-    Items: [
-      {
-        Image: dark5,
-      },
-      {
-        Image: happy4,
-      },
-      {
-        Image: dark2,
+        Image: dark1,
       },
     ],
   },
@@ -178,6 +165,7 @@ class BannerExample extends React.Component {
             See more of my headshots and photos from previous productions.
           </MKTypography>
         </Grid>
+        <Grid item xs={12} md={8} sx={{ mb: 6, textAlign: "center" }}>
         <Card
           sx={{ background: "linear-gradient(195deg, #858585, #454545)"}}
           >
@@ -202,6 +190,8 @@ class BannerExample extends React.Component {
             })}
           </Carousel>
         </Card>
+        </Grid>
+
       </Container>
     );
   }

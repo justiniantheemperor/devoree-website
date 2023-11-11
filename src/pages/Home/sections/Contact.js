@@ -24,7 +24,7 @@ import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
 // Images
-import bgImage from "assets/images/headshots/happy.jpg";
+import bgImage from "assets/images/graphics/happy.jpg";
 
 function Contact() {
   const backgroundImageStyle = {
