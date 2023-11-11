@@ -21,7 +21,7 @@ import MKButton from "components/MKButton";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-import Featuring from "pages/Home/sections/Featuring";
+import Brands from "pages/Home/sections/Brands";
 import CurrentProject from "pages/Home/sections/CurrentProject";
 
 // Images
@@ -85,7 +85,7 @@ function About() {
             </Box>
           </Grid>
         </Grid>
-        <Featuring />
+        <Brands />
         <CurrentProject />
       </Container>
     </MKBox>

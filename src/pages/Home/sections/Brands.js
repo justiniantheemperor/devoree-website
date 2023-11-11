@@ -39,7 +39,7 @@ import utba from "assets/images/logos/utah-theater-blogger.png";
 
 
 
-function Featuring() {
+function Brands() {
   return (
     <MKBox component="section" pt={3}>
         <Grid container spacing={3} sx={{justifyContent:"center", alignItems:"center"}}>
@@ -56,11 +56,11 @@ function Featuring() {
             <MKBox component="img" src={ocreg} alt="OC Register" width="100%" opacity={0.8} />
           </Grid>
           <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={csssa} alt="Caligornia State Summer School for the Arts" width="100%" opacity={0.8} />
+            <MKBox component="img" src={csssa} alt="California State Summer School for the Arts" width="100%" opacity={0.8} />
           </Grid>
         </Grid>
     </MKBox>
   );
 }
 
-export default Featuring;
+export default Brands;

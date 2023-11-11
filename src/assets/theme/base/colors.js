@@ -78,8 +78,8 @@ export default {
   },
 
   white: {
-    main: "#ffffff",
-    focus: "#ffffff",
+    main: "#F9F4F1",
+    focus: "#F9F4F1",
   },
 
   black: {
@@ -276,7 +276,7 @@ export default {
     },
 
     light: {
-      background: "#ffffff",
+      background: "#F9F4F1",
       text: "#c7d3de",
     },
 
