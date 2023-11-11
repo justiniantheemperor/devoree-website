@@ -82,15 +82,15 @@ function Resume() {
                 "linear-gradient(180deg, rgba(231, 130, 127, .7), rgba(249, 220, 220, .7))",
               transition: "1s",
               ".MuiCardMedia-root": {
+                filter: "brightness(115%)", 
                 transform: "scale3d(1.06, 1.06, 1)",
-                transition: "transform 0.5s",
+                transition: ".8s",
               },
             },
           }}
         >
           <CardMedia
             className="Media"
-            // component="img"
             image={resumeGraphic}
             title="Click to download Devoree's Headshot/Resume"
             onClick={onDownload}
@@ -99,12 +99,10 @@ function Resume() {
               height: "100%",
               width: "80%",
               marginBottom: "1.5rem",
-              //   paddingBottom: "35%",
               display: "flex",
-              //   flexDirection: "column",
-              //   alignItems: "start", // Center horizontally
               alignContent: "start",
-              justifyContent: "center", // Center vertically
+              justifyContent: "center",
+
             }}
           ></CardMedia>
           <Grow in={hovered}>
@@ -123,7 +121,8 @@ function Resume() {
                   width: "100%",
                   color: "#F8DFDD",
                   "&:hover": {
-                    color: "#FCEFEE",
+                    color: "#fff",
+                    transition: ".3s",
                   },
                 }}
               />
