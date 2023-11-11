@@ -44,8 +44,6 @@ function Contact() {
   const [snackbarMessage, setSnackbarMessage] = React.useState("");
   const [snackbarSeverity, setSnackbarSeverity] = React.useState("success");
 
-  const [errorMessage, setErrorMessage] = React.useState("");
-
   const handleSnackbarClose = (event, reason) => {
     if (reason === "clickaway") {
       return;
@@ -71,7 +69,6 @@ function Contact() {
           setSnackbarMessage("Message sent successfully!");
           setSnackbarSeverity("success");
           setOpenSnackbar(true);
-          setErrorMessage("");
           form.current.reset();
         },
         (error) => {
@@ -79,7 +76,6 @@ function Contact() {
           setSnackbarMessage("Error sending message. Please try again.");
           setSnackbarSeverity("error");
           setOpenSnackbar(true);
-          setErrorMessage(error.text);
         }
       );
   };
@@ -114,14 +110,6 @@ function Contact() {
                       </MKTypography>
                       <MKTypography variant="body1" color="text" mb={2}>
                         I&apos;d love to talk with you.
-                      </MKTypography>
-                      <MKTypography
-                        variant="body2"
-                        color="error"
-                        mb={2}
-                        style={{ display: errorMessage ? "block" : "none" }}
-                      >
-                        {errorMessage}
                       </MKTypography>
                     </MKBox>
                     <MKBox pt={0.5} pb={3} px={3}>
