@@ -137,7 +137,7 @@ const typography = {
 
   button: {
     fontFamily: baseProperties.fontFamily,
-    fontSize: baseProperties.fontSizeSM,
+    fontSize: baseProperties.fontSizeMD,
     fontWeight: baseProperties.fontWeightLight,
     lineHeight: 1.5,
     textTransform: "uppercase",
