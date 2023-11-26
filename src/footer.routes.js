@@ -11,8 +11,8 @@ import MKTypography from "components/MKTypography";
 import logoCT from "assets/images/logo-ct-dark.png";
 
 // Sections
-import HeadshotsPage from "layouts/pages/headshots";
-import ReelsPage from "layouts/pages/reels";
+// import HeadshotsPage from "layouts/pages/headshots";
+// import ReelsPage from "layouts/pages/reels";
 
 const date = new Date().getFullYear();
 
@@ -33,20 +33,20 @@ export default {
     },
   ],
   menus: [
-    {
-      name: "Reels",
-      items: [
-        { name: "Headshots", route: "/pages/headshots", component: <HeadshotsPage />, },
-        { name: "Reels", route: "/pages/reels", component: <ReelsPage />, },
-      ],
-    },
-    {
-      name: "Headshots",
-      items: [
-        { name: "Headshots", route: "/pages/headshots", component: <HeadshotsPage />, },
-        { name: "Reels", route: "/pages/reels", component: <ReelsPage />, },
-      ],
-    },
+    // {
+    //   name: "Reels",
+    //   items: [
+    //     { name: "Headshots", route: "/pages/headshots", component: <HeadshotsPage />, },
+    //     { name: "Reels", route: "/pages/reels", component: <ReelsPage />, },
+    //   ],
+    // },
+    // {
+    //   name: "Headshots",
+    //   items: [
+    //     { name: "Headshots", route: "/pages/headshots", component: <HeadshotsPage />, },
+    //     { name: "Reels", route: "/pages/reels", component: <ReelsPage />, },
+    //   ],
+    // },
     {
       name: "Social Media",
       items: [

@@ -43,23 +43,7 @@ import Icon from "@mui/material/Icon";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
-// Pages
-import ReelsPage from "layouts/pages/reels";
-import HeadshotsPage from "layouts/pages/headshots";
-
 const routes = [
-  {
-    name: "Headshots",
-    icon: <Icon>dashboard</Icon>,
-    route: "/pages/headshots",
-    component: <HeadshotsPage />,
-  },
-  {
-    name: "Reels",
-    icon: <Icon>view_day</Icon>,
-    route: "/pages/reels",
-    component: <ReelsPage />,
-  },
   {
     // name: "Instagram",
     icon: <InstagramIcon />,

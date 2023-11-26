@@ -21,8 +21,8 @@ import MKButton from "components/MKButton";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-import Brands from "pages/Home/sections/Brands";
-import CurrentProject from "pages/Home/sections/CurrentProject";
+import Brands from "layouts/sections/Brands";
+import CurrentProject from "layouts/sections/CurrentProject";
 
 // Images
 import aboutMe from "assets/images/graphics/main.jpg";

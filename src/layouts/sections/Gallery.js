@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-material-ui-carousel";
-import "pages/Home/styles/gallery.css";
+import "layouts/styles/gallery.css";
 
 import { useMediaQuery, Card, CardMedia, Grid, Container } from "@mui/material";
 

@@ -24,18 +24,18 @@ import MKTypography from "components/MKTypography";
 import MKButton from "components/MKButton";
 
 // About Us page sections
-import Header from "pages/Home/sections/Header";
-import About from "pages/Home/sections/About";
-import Reels from "pages/Home/sections/Reels";
-import Resume from "pages/Home/sections/Resume";
-import Gallery from "pages/Home/sections/Gallery";
-import Contact from "pages/Home/sections/Contact";
-import Footer from "pages/Home/sections/Footer";
+import Header from "layouts/sections/Header";
+import About from "layouts/sections/About";
+import Reels from "layouts/sections/Reels";
+import Resume from "layouts/sections/Resume";
+import Gallery from "layouts/sections/Gallery";
+import Contact from "layouts/sections/Contact";
+import Footer from "layouts/sections/Footer";
 
 // Routes
 import footerRoutes from "footer.routes";
 
-function Home() {
+function Index() {
   return (
     <>
       <Header />
@@ -60,4 +60,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Index;

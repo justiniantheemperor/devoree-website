@@ -28,7 +28,7 @@ import MKTypography from "components/MKTypography";
 import bgImage from "assets/images/graphics/dark.jpg";
 
 //Components
-import HeaderNav from "pages/Home/sections/HeaderNav.js";
+import HeaderNav from "layouts/sections/HeaderNav.js";
 
 function Header() {
   return (

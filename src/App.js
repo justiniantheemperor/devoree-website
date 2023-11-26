@@ -26,9 +26,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import theme from "assets/theme";
 import routes from "routes";
 
-import HomePage from "layouts/pages/home";
-import HeadshotsPage from "layouts/pages/headshots";
-import ReelsPage from "layouts/pages/reels";
+import Index from "layouts";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -57,10 +55,7 @@ export default function App() {
       <CssBaseline />
       <Routes>
         {getRoutes(routes)}
-        <Route path="/" element={<HomePage />} />
-        <Route path="/reels" element={<ReelsPage />} />
-        <Route path="/headshots" element={<HeadshotsPage />} />
-
+        <Route path="/" element={<Index />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </ThemeProvider>
