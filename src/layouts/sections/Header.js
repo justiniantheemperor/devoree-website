@@ -85,7 +85,16 @@ function Header() {
               pr={6}
               mr={6}
             >
-              Empathy • Connection • Fun
+              Empathy • Connection • Vulnerability
+            </MKTypography>
+            <MKTypography
+              variant="body2"
+              color="white"
+              opacity={0.8}
+              pr={6}
+              mr={6}
+            >
+              "Acting should be fun."
             </MKTypography>
             <Stack direction="row" spacing={1} mt={3}>
               <MKButton color="white">Download Resume</MKButton>
