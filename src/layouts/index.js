@@ -32,9 +32,6 @@ import Gallery from "layouts/sections/Gallery";
 import Contact from "layouts/sections/Contact";
 import Footer from "layouts/sections/Footer";
 
-// Routes
-import footerRoutes from "footer.routes";
-
 function Index() {
   return (
     <>
@@ -44,7 +41,6 @@ function Index() {
       <MKBox
         component="section"
         position="relative"
-        py={6}
         px={{ xs: 2, lg: 0 }}
         mx={-2}
         sx={{
@@ -54,8 +50,8 @@ function Index() {
         <Resume />
         <Gallery />
         <Contact />
+      <Footer/>
       </MKBox>
-      <Footer content={footerRoutes} />
     </>
   );
 }

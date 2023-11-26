@@ -13,12 +13,6 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-// react-router-dom components
-import { Link } from "react-router-dom";
-
-// prop-types is a library for typechecking of props.
-import PropTypes from "prop-types";
-
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
@@ -27,20 +21,42 @@ import Grid from "@mui/material/Grid";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-function Copyright({ content }) {
-  const { copyright } = content;
+function Footer() {
+  const date = new Date().getFullYear();
 
   return (
-    <MKBox component="footer">
+    <MKBox>
       <Container>
-        <Grid container spacing={3}>
-          <Grid item xs={12} sx={{ textAlign: "center", my: 3 }}>
-            {copyright}
+        <MKBox>
+          <Grid container spacing={3}>
+            <Grid xs={12} sx={{ textAlign: "center", marginTop: "12px" }}>
+              <MKTypography fontWeight="regular" color="white" opacity={0.7}>
+                Website designed by{" "}
+                <a
+                  href="https://justiniantheemperor.github.io/"
+                  target="_blank"
+                >
+                  Justin Ellis
+                </a>
+              </MKTypography>
+            </Grid>
+            <Grid xs={12} sx={{ textAlign: "center", paddingTop: "0px" }}>
+              <MKTypography
+                variant="button"
+                color="white"
+                fontWeight="lighter"
+                fontSize="small"
+                opacity={0.7}
+              >
+                All rights reserved. Copyright &copy; {date} Material Kit by
+                Creative Tim.
+              </MKTypography>
+            </Grid>
           </Grid>
-        </Grid>
+        </MKBox>
       </Container>
     </MKBox>
   );
 }
 
-export default Copyright;
+export default Footer;

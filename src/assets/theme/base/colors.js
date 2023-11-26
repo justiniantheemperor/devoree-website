@@ -26,45 +26,15 @@ export default {
 
   // my custom colors
 
-  // offwhite1: {
-  //   main: "#EDDED4",
-  //   focus: "#E7D3C5",
-  // },
-
-  // tan1: {
-  //   main: "#DFC4B0",
-  //   focus: "#CFA88A",
-  // },
-
-  // tan2: {
-  //   main: "#CFA88A",
-  //   focus: "#CA9E7D",
-  // },
-
-  // tan3: {
-  //   main: "#9C7654",
-  //   focus: "#926E4F",
-  // },
-
-  // tan4: {
-  //   main: "#CFA88A",
-  //   focus: "#CA9E7D",
-  // },
-
-  // coral: {
-  //   main: "#E7827F",
-  //   focus: "#E57A76",
-  // },
-
-  // red1: {
-  //   main: "#5C1E2C",
-  //   focus: "#4D1926",
-  // },
-
-  // red2: {
-  //   main: "#3E141D",
-  //   focus: "#2E0F16",
-  // },
+  offwhite1: "#EDDED4",
+  tan1: "#DFC4B0", 
+  tan2: "#CFA88A",
+  tan3: "#9C7654",
+  tan4: "#CFA88A",
+  coral: "#E7827F",
+  red1: "#5C1E2C",
+  red2: "#3E141D",
+  
 
   // end custom colors //
 
