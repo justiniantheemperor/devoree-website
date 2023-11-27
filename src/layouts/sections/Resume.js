@@ -140,7 +140,7 @@ function Resume() {
             </Grow>
           </Card>
         </Grid>
-        <Grid item xs={12} md={8} sx={{ mb: 6, textAlign: "center" }}>
+        <Grid item xs={12} md={8} sx={{ textAlign: "center" }}>
           <MKButton onClick={onDownload} variant="gradient" color="info">
             <DownloadIcon></DownloadIcon>Download H/R
           </MKButton>

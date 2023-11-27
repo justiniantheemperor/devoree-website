@@ -27,10 +27,23 @@ export default {
     padding: 0,
   },
   "a, a:link, a:visited": {
+    textDecoration: "none",
     color: `${white.main} !important`,
     transition: "color 150ms ease-in !important",
   },
   "a:hover, a:focus": {
     color: `${info.focus} !important`,
   },
+  "button a:hover, button a:focus": {
+    color: `${white.focus} !important`,
+  },
+  "a#link, a#link:link": {
+    color: `${white.main} !important`,
+    textDecoration: "underline",
+  },
+  "a#link:focus, a#link:hover": {
+    color: `${info.main} !important`,
+    textDecoration: "underline",
+  },
+
 };

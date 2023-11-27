@@ -156,43 +156,50 @@ class BannerExample extends React.Component {
 
   render() {
     return (
-      <Container>
-        <Grid item xs={12} md={8} sx={{ mb: 6, textAlign: "center" }}>
-          <MKTypography variant="h3" color="white">
-            Gallery
-          </MKTypography>
-          <MKTypography variant="body2" color="white" opacity={0.8}>
-            See more of my headshots and photos from previous productions.
-          </MKTypography>
-        </Grid>
-        <Grid item xs={12} md={8} sx={{ mb: 6, textAlign: "center" }}>
-        <Card
-          sx={{ background: "linear-gradient(195deg, #858585, #454545)"}}
-          >
-          <Carousel
-            className="Example"
-            autoPlay={this.state.autoPlay}
-            animation={this.state.animation}
-            indicators={this.state.indicators}
-            timeout={this.state.timeout}
-            cycleNavigation={this.state.cycleNavigation}
-            navButtonsAlwaysVisible={this.state.navButtonsAlwaysVisible}
-            navButtonsAlwaysInvisible={this.state.navButtonsAlwaysInvisible}
-            duration={400}
-            activeIndicatorIconButtonProps={{
-              style: {
-                color: "#E7827F", 
-              },
-            }}
-          >
-            {items.map((item, index) => {
-              return <Banner item={item} key={index} />;
-            })}
-          </Carousel>
-        </Card>
-        </Grid>
-
-      </Container>
+      <MKBox
+        component="section"
+        position="relative"
+        py={6}
+        px={{ xs: 2, lg: 0 }}
+        mx={-2}
+      >
+        <Container>
+          <Grid item xs={12} md={8} sx={{ mb: 6, textAlign: "center" }}>
+            <MKTypography variant="h3" color="white">
+              Gallery
+            </MKTypography>
+            <MKTypography variant="body2" color="white" opacity={0.8}>
+              See more of my headshots and photos from previous productions.
+            </MKTypography>
+          </Grid>
+          <Grid item xs={12} md={8} sx={{ mb: 6, textAlign: "center" }}>
+            <Card
+              sx={{ background: "linear-gradient(195deg, #858585, #454545)" }}
+            >
+              <Carousel
+                className="Example"
+                autoPlay={this.state.autoPlay}
+                animation={this.state.animation}
+                indicators={this.state.indicators}
+                timeout={this.state.timeout}
+                cycleNavigation={this.state.cycleNavigation}
+                navButtonsAlwaysVisible={this.state.navButtonsAlwaysVisible}
+                navButtonsAlwaysInvisible={this.state.navButtonsAlwaysInvisible}
+                duration={400}
+                activeIndicatorIconButtonProps={{
+                  style: {
+                    color: "#E7827F",
+                  },
+                }}
+              >
+                {items.map((item, index) => {
+                  return <Banner item={item} key={index} />;
+                })}
+              </Carousel>
+            </Card>
+          </Grid>
+        </Container>
+      </MKBox>
     );
   }
 }

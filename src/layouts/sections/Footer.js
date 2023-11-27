@@ -30,11 +30,12 @@ function Footer() {
         <MKBox>
           <Grid container spacing={3}>
             <Grid xs={12} sx={{ textAlign: "center", marginTop: "12px" }}>
-              <MKTypography fontWeight="regular" color="white" opacity={0.7}>
+              <MKTypography fontWeight="regular" color="white">
                 Website designed by{" "}
                 <a
                   href="https://justiniantheemperor.github.io/"
                   target="_blank"
+                  id="link"
                 >
                   Justin Ellis
                 </a>
@@ -46,7 +47,7 @@ function Footer() {
                 color="white"
                 fontWeight="lighter"
                 fontSize="small"
-                opacity={0.7}
+                opacity={0.8}
               >
                 All rights reserved. Copyright &copy; {date} Material Kit by
                 Creative Tim.
