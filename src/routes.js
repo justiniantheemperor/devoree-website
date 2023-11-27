@@ -43,7 +43,49 @@ import Icon from "@mui/material/Icon";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
+import Index from "layouts";
+
+import Header from "layouts/sections/Header";
+import About from "layouts/sections/About";
+import Reels from "layouts/sections/Reels";
+import Resume from "layouts/sections/Resume";
+import Gallery from "layouts/sections/Gallery";
+import Contact from "layouts/sections/Contact";
+
+const hashRoutes = [
+  "home",
+  "about",
+  "reels",
+  "resume",
+  "gallery",
+  "contact",
+];
+
 const routes = [
+  // {
+  //   route: "/#home",
+  //   component: Header,
+  // },
+  // {
+  //   route: "/#about",
+  //   component: About,
+  // },
+  // {
+  //   route: "/#reels",
+  //   component: Reels,
+  // },
+  // {
+  //   route: "/#resume",
+  //   component: Resume,
+  // },
+  // {
+  //   route: "/#gallery",
+  //   component: Gallery,
+  // },
+  // {
+  //   route: "/#contact",
+  //   component: Contact,
+  // },
   {
     // name: "Instagram",
     icon: <InstagramIcon />,

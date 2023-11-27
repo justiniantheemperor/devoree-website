@@ -12,6 +12,8 @@ Coded by www.creative-tim.com
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
+import * as React from "react";
+import { HashLink, NavHashLink } from "react-router-hash-link";
 
 // @mui material components
 import Container from "@mui/material/Container";
@@ -33,15 +35,15 @@ function HeaderNav() {
       <Container>
         <Grid container flexDirection="row" alignItems="center">
           <MKTypography
-            component={Link}
-            href="#"
             variant="button"
             color="white"
             fontWeight="regular"
             py={0.8125}
             mr={2}
           >
-            Material Design
+            <HashLink smooth to={"#"}>
+              Devoree Ellis
+            </HashLink>
           </MKTypography>
           <MKButton
             variant="outlined"
@@ -50,6 +52,7 @@ function HeaderNav() {
           >
             <MKBox component="i" color="white" className="fas fa-bars" />
           </MKButton>
+          {/* Centered Links */}
           <MKBox
             component="ul"
             display={{ xs: "none", lg: "flex" }}
@@ -58,46 +61,64 @@ function HeaderNav() {
             mx="auto"
             sx={{ listStyle: "none" }}
           >
+            {/* About */}
             <MKBox component="li">
               <MKTypography
-                component={Link}
-                href="#"
                 variant="button"
                 color="white"
                 fontWeight="regular"
                 p={1}
                 onClick={(e) => e.preventDefault()}
               >
-                Home
+                <HashLink smooth to={"#about"}>
+                  About
+                </HashLink>
               </MKTypography>
             </MKBox>
+            {/* Reels */}
             <MKBox component="li">
               <MKTypography
-                component={Link}
-                href="#"
                 variant="button"
                 color="white"
                 fontWeight="regular"
                 p={1}
                 onClick={(e) => e.preventDefault()}
               >
-                About Us
+                <HashLink smooth to={"#reels"}>
+                  Reels
+                </HashLink>
               </MKTypography>
             </MKBox>
+            {/* Resume */}
             <MKBox component="li">
               <MKTypography
-                component={Link}
-                href="#"
                 variant="button"
                 color="white"
                 fontWeight="regular"
                 p={1}
                 onClick={(e) => e.preventDefault()}
               >
-                Contact Us
+                <HashLink smooth to={"#resume"}>
+                  Resume
+                </HashLink>
+              </MKTypography>
+            </MKBox>
+            {/* Gallery */}
+            <MKBox component="li">
+              <MKTypography
+                variant="button"
+                color="white"
+                fontWeight="regular"
+                p={1}
+                onClick={(e) => e.preventDefault()}
+              >
+                <HashLink smooth to={"#gallery"}>
+                  Gallery
+                </HashLink>
               </MKTypography>
             </MKBox>
           </MKBox>
+          {/* Social Buttons */}
           <MKBox
             component="ul"
             display={{ xs: "none", lg: "flex" }}
@@ -107,8 +128,6 @@ function HeaderNav() {
           >
             <MKBox component="li">
               <MKTypography
-                component={Link}
-                href="#"
                 variant="button"
                 p={1}
                 onClick={(e) => e.preventDefault()}
@@ -122,8 +141,6 @@ function HeaderNav() {
             </MKBox>
             <MKBox component="li">
               <MKTypography
-                component={Link}
-                href="#"
                 variant="button"
                 p={1}
                 onClick={(e) => e.preventDefault()}
@@ -145,7 +162,9 @@ function HeaderNav() {
                 color="info"
                 sx={{ marginLeft: "20px" }}
               >
-                Contact Me
+                <HashLink smooth to={"#contact"}>
+                  Contact Me
+                </HashLink>
               </MKButton>
             </MKBox>
           </MKBox>
