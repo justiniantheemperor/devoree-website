@@ -40,7 +40,7 @@ export default {
       fontSize: size.sm,
       color: text.main,
       textAlign: "left",
-      backgroundColor: `${white.main} !important`,
+      background: "linear-gradient(195deg, #42424a, #191919)",
       borderRadius: borderRadius.md,
     },
   },

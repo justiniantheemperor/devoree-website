@@ -12,7 +12,7 @@ Coded by www.creative-tim.com
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
-import * as React from "react";
+import { useState } from "react";
 import { HashLink, NavHashLink } from "react-router-hash-link";
 
 // @mui material components
@@ -20,6 +20,8 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -28,8 +30,19 @@ import MKTypography from "components/MKTypography";
 
 // Images
 import bgImage from "assets/images/graphics/dark.jpg";
+import MenuDropDown from "./MenuDropDown";
 
 function HeaderNav() {
+  const [anchorEl, setAnchorEl] = useState(null);
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
   return (
     <MKBox component="nav" position="absolute" top="0.5rem" width="100%">
       <Container>
@@ -45,13 +58,9 @@ function HeaderNav() {
               Devoree Ellis
             </HashLink>
           </MKTypography>
-          <MKButton
-            variant="outlined"
-            color="white"
-            sx={{ display: { xs: "block", lg: "none" }, ml: "auto" }}
-          >
-            <MKBox component="i" color="white" className="fas fa-bars" />
-          </MKButton>
+
+          <MenuDropDown />
+
           {/* Centered Links */}
           <MKBox
             component="ul"

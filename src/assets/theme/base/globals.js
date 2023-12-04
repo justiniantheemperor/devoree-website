@@ -27,6 +27,9 @@ export default {
     padding: 0,
     overflowX: "hidden",
   },
+  body: {
+    overflow: "hidden",
+  },
   "*, *::before, *::after": {
     margin: 0,
     padding: 0,
