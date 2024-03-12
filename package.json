@@ -1,14 +1,17 @@
 {
-  "name": "devoree-website",
+  "name": "devoree-ellis-website",
   "version": "2.1.0",
   "private": true,
-  "author": "Justin Ellis, Creative Tim",
+  "author": "Justin Ellis / Creative Tim",
   "license": "See license in https://www.creative-tim.com/license",
   "description": "React version of Material Kit 2 by Creative Tim",
   "homepage": "https://justiniantheemperor.github.io/devoree-website/",
+  "bugs": {
+    "url": "https://github.com/creativetimofficial/ct-material-kit-react/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/justiniantheemperor/devoree-website"
+    "url": "git+https://github.com/justiniantheemperor/devoree-website.git"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -23,6 +26,7 @@
     "@testing-library/user-event": "14.4.3",
     "chroma-js": "2.4.2",
     "flatpickr": "4.6.13",
+    "gh-pages": "^6.1.1",
     "prop-types": "15.8.1",
     "react": "18.2.0",
     "react-copy-to-clipboard": "5.1.0",
@@ -38,8 +42,8 @@
     "web-vitals": "3.3.1"
   },
   "scripts": {
-   "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -56,8 +60,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
   }
 }
