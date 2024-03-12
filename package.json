@@ -5,12 +5,8 @@
   "author": "Justin Ellis, Creative Tim",
   "license": "See license in https://www.creative-tim.com/license",
   "description": "React version of Material Kit 2 by Creative Tim",
-+ "homepage": "https://devoree-ellis.com",
++ "homepage": "https://justiniantheemperor.github.io/devoree-website/",
 
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/justiniantheemperor/devoree-website"
-  },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emotion/cache": "11.10.7",
