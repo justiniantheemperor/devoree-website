@@ -31,6 +31,7 @@ import MKTypography from "components/MKTypography";
 // Images
 import bgImage from "assets/images/graphics/dark.jpg";
 import MenuDropDown from "./MenuDropDown";
+import InstagramButton from "./InstagramButton";
 
 function HeaderNav() {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -77,7 +78,6 @@ function HeaderNav() {
                 color="white"
                 fontWeight="regular"
                 p={1}
-                onClick={(e) => e.preventDefault()}
               >
                 <HashLink smooth to={"#about"}>
                   About
@@ -91,7 +91,6 @@ function HeaderNav() {
                 color="white"
                 fontWeight="regular"
                 p={1}
-                onClick={(e) => e.preventDefault()}
               >
                 <HashLink smooth to={"#reels"}>
                   Reels
@@ -105,7 +104,6 @@ function HeaderNav() {
                 color="white"
                 fontWeight="regular"
                 p={1}
-                onClick={(e) => e.preventDefault()}
               >
                 <HashLink smooth to={"#resume"}>
                   Resume
@@ -119,7 +117,6 @@ function HeaderNav() {
                 color="white"
                 fontWeight="regular"
                 p={1}
-                onClick={(e) => e.preventDefault()}
               >
                 <HashLink smooth to={"#gallery"}>
                   Gallery
@@ -136,25 +133,36 @@ function HeaderNav() {
             sx={{ listStyle: "none" }}
           >
             <MKBox component="li">
-              <MKTypography
-                variant="button"
-                p={1}
-                onClick={(e) => e.preventDefault()}
-              >
-                <MKBox
-                  component="i"
-                  color="white"
-                  className="fab fa-instagram"
-                />
-              </MKTypography>
+              <InstagramButton/>
             </MKBox>
             <MKBox component="li">
               <MKTypography
                 variant="button"
                 p={1}
-                onClick={(e) => e.preventDefault()}
+                sx={{
+                  color: "white",
+                  "&:hover": {
+                    color: "red",
+                  },
+                }}
               >
-                <MKBox component="i" color="white" className="fab fa-youtube" />
+                <Link
+                  href="https://www.youtube.com/@devoreeellis2437"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <MKBox
+                    component="i"
+                    color="white"
+                    className="fab fa-youtube"
+                    sx={{
+                      "&:hover": {
+                        color: "red",
+                        // transition: "600ms",
+                      },
+                    }}
+                  />
+                </Link>
               </MKTypography>
             </MKBox>
           </MKBox>

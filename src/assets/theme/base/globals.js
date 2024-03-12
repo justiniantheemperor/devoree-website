@@ -36,21 +36,21 @@ export default {
   },
   "a, a:link, a:visited": {
     textDecoration: "none",
-    color: `${white.main} !important`,
-    transition: "color 150ms ease-in !important",
+    color: `${white.main}`,
+    transition: "color 150ms ease-in",
   },
   "a:hover, a:focus": {
-    color: `${info.focus} !important`,
+    color: `${info.focus}`,
   },
   "button a:hover, button a:focus": {
-    color: `${white.focus} !important`,
+    color: `${white.focus}`,
   },
   "a#link, a#link:link": {
-    color: `${white.main} !important`,
+    color: `${white.main}`,
     textDecoration: "underline",
   },
   "a#link:focus, a#link:hover": {
-    color: `${info.main} !important`,
+    color: `${info.main}`,
     textDecoration: "underline",
   },
 

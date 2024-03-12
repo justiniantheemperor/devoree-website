@@ -174,7 +174,7 @@ class BannerExample extends React.Component {
           </Grid>
           <Grid item xs={12} md={8} sx={{ mb: 6, textAlign: "center" }}>
             <Card
-              sx={{ background: "linear-gradient(195deg, #858585, #454545)" }}
+              sx={{background: "linear-gradient(195deg, #5C1E2C, #1F0A0F)",}}
             >
               <Carousel
                 className="Example"
