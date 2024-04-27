@@ -169,7 +169,7 @@ class BannerExample extends React.Component {
               Gallery
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              See more of my headshots and photos from previous productions.
+              See more of my headshots and photos from previous projects.
             </MKTypography>
           </Grid>
           <Grid item xs={12} md={8} sx={{ mb: 6, textAlign: "center" }}>

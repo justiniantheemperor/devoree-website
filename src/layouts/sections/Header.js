@@ -18,7 +18,7 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
-
+import { HashLink, NavHashLink } from "react-router-hash-link";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKButton from "components/MKButton";
@@ -38,7 +38,7 @@ function Header() {
       height="100%"
       minHeight="30rem"
     >
-      <HeaderNav/>
+      <HeaderNav />
       <MKBox
         display="flex"
         alignItems="center"
@@ -94,12 +94,18 @@ function Header() {
               pr={6}
               mr={6}
             >
-              "Acting should be fun."
+              Utah-based actress signed by TMG
             </MKTypography>
             <Stack direction="row" spacing={1} mt={3}>
-              <MKButton color="white">Download Resume</MKButton>
+              <MKButton variant="gradient" color="info">
+                <HashLink smooth to={"#contact"}>
+                  Contact Me
+                </HashLink>
+              </MKButton>
               <MKButton variant="text" color="white">
-                View Reels
+                <HashLink smooth to={"#reels"}>
+                  View Reels
+                </HashLink>
               </MKButton>
             </Stack>
           </Grid>

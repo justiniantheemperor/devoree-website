@@ -17,9 +17,16 @@ import { Container, Grid, CardMedia } from "@mui/material";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-const actingReel = "https://www.youtube.com/embed/8-YPG6Yfv6c?si=tmJ1Nc9h2yBKp0Ax";
-const coffeeReel ="https://www.youtube.com/embed/4UdBxE6Gf-4?si=nGqSH9-3q2fwxO7H";
-const dialectReel = "https://www.youtube.com/embed/pFkR6ogSKwE?si=gLnqGmIHwb3KfqRN";
+const demoReel = "https://www.youtube.com/embed/8-YPG6Yfv6c?si=tmJ1Nc9h2yBKp0Ax";
+const comedy_crazystupidlove = "https://www.youtube.com/embed/NlmM458wyzw?si=Nge1ioVORAv5Kezq";
+const drama_IandYou = "https://www.youtube.com/embed/vGWNORwO4jk?si=8bsOKrmkXpxPz4dp";
+const drama_stardust = "https://www.youtube.com/embed/MjAJ9ypiXJk?si=SZmBj-CR5GopbpYy";
+const houseOfDesires = "";
+const shakespeare_juliet = "https://www.youtube.com/embed/3ReNCJr4c0A?si=a5QplMhZaxRYu_vG";
+const shakespeare_margaret = "https://www.youtube.com/embed/2TVrK_C61uo?si=b26eyVFSZcO9BeCj";
+const singingReel = "https://www.youtube.com/embed/N4X-R1ghe6g?si=vhNf3UTnP4nWAV7y";
+const dialectReel = "https://www.youtube.com/embed/pFkR6ogSKwE?si=ZWimUOmoIGVmYGSy";
+const fightReel = "https://www.youtube.com/embed/0B3bKc9M75g?si=ODambE5Gs3V26zrt";
 
 function Reels() {
   return (
@@ -42,16 +49,70 @@ function Reels() {
             <MKTypography variant="h3" color="white">
               Acting Reels
             </MKTypography>
-            <MKTypography variant="body2" color="white" opacity={0.8}>
-              There's nothing I really wanted to do in life that I wasn't able
-              to get good at. That's my skill.
-            </MKTypography>
+            {/* <MKTypography variant="body2" color="white" opacity={0.8}>
+            </MKTypography> */}
           </Grid>
           <Grid container spacing={3} justifyContent="center">
             <Grid item xs={12} lg={6} display="flex" justifyContent="center">
               <CardMedia
                 component="iframe"
-                src={actingReel}
+                src={demoReel}
+                allowFullScreen="allowfullscreen"
+                sx={{ height: "20rem", width: "100%" }}
+              />
+            </Grid>
+            <Grid item xs={12} lg={6} display="flex" justifyContent="center">
+              <CardMedia
+                component="iframe"
+                src={comedy_crazystupidlove}
+                allowFullScreen="allowfullscreen"
+                sx={{ height: "20rem", width: "100%" }}
+              />
+            </Grid>
+            <Grid item xs={12} lg={6} display="flex" justifyContent="center">
+              <CardMedia
+                component="iframe"
+                src={drama_IandYou}
+                allowFullScreen="allowfullscreen"
+                sx={{ height: "20rem", width: "100%" }}
+              />
+            </Grid>
+            <Grid item xs={12} lg={6} display="flex" justifyContent="center">
+              <CardMedia
+                component="iframe"
+                src={drama_stardust}
+                allowFullScreen="allowfullscreen"
+                sx={{ height: "20rem", width: "100%" }}
+              />
+            </Grid>
+            {/* <Grid item xs={12} lg={6} display="flex" justifyContent="center">
+              <CardMedia
+                component="iframe"
+                src={houseOfDesires}
+                allowFullScreen="allowfullscreen"
+                sx={{ height: "20rem", width: "100%" }}
+              />
+            </Grid> */}
+            <Grid item xs={12} lg={6} display="flex" justifyContent="center">
+              <CardMedia
+                component="iframe"
+                src={shakespeare_juliet}
+                allowFullScreen="allowfullscreen"
+                sx={{ height: "20rem", width: "100%" }}
+              />
+            </Grid>
+            <Grid item xs={12} lg={6} display="flex" justifyContent="center">
+              <CardMedia
+                component="iframe"
+                src={shakespeare_margaret}
+                allowFullScreen="allowfullscreen"
+                sx={{ height: "20rem", width: "100%" }}
+              />
+            </Grid>
+            <Grid item xs={12} lg={6} display="flex" justifyContent="center">
+              <CardMedia
+                component="iframe"
+                src={singingReel}
                 allowFullScreen="allowfullscreen"
                 sx={{ height: "20rem", width: "100%" }}
               />
@@ -67,7 +128,7 @@ function Reels() {
             <Grid item xs={12} lg={6} display="flex" justifyContent="center">
               <CardMedia
                 component="iframe"
-                src={coffeeReel}
+                src={fightReel}
                 allowFullScreen="allowfullscreen"
                 sx={{ height: "20rem", width: "100%" }}
               />
