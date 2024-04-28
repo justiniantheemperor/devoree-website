@@ -38,6 +38,7 @@ import Resume from "layouts/sections/Resume";
 import Gallery from "layouts/sections/Gallery";
 import Contact from "layouts/sections/Contact";
 import Footer from "layouts/sections/Footer";
+import Voiceover from "./sections/Voiceover";
 
 function Index() {
   window.addEventListener("load", () => {
@@ -68,6 +69,9 @@ function Index() {
       </section>
       <section id="reels">
         <Reels />
+      </section>
+      <section id="voiceover">
+        <Voiceover />
       </section>
       <MKBox
         component="section"

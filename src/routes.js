@@ -51,11 +51,13 @@ import Reels from "layouts/sections/Reels";
 import Resume from "layouts/sections/Resume";
 import Gallery from "layouts/sections/Gallery";
 import Contact from "layouts/sections/Contact";
+import Voiceover from "layouts/sections/Voiceover";
 
 const hashRoutes = [
   "home",
   "about",
   "reels",
+  "voiceover",
   "resume",
   "gallery",
   "contact",

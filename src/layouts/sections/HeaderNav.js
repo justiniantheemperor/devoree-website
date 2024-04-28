@@ -97,6 +97,19 @@ function HeaderNav() {
                 </HashLink>
               </MKTypography>
             </MKBox>
+            {/* Voiceover */}
+            <MKBox component="li">
+              <MKTypography
+                variant="button"
+                color="white"
+                fontWeight="regular"
+                p={1}
+              >
+                <HashLink smooth to={"#voiceover"}>
+                  Voiceover
+                </HashLink>
+              </MKTypography>
+            </MKBox>
             {/* Resume */}
             <MKBox component="li">
               <MKTypography
@@ -133,7 +146,7 @@ function HeaderNav() {
             sx={{ listStyle: "none" }}
           >
             <MKBox component="li">
-              <InstagramButton/>
+              <InstagramButton />
             </MKBox>
             <MKBox component="li">
               <MKTypography
