@@ -1,10 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d3013ec.css",
-    "main.js": "/static/js/main.ba155cb4.js",
+    "main.css": "/static/css/main.693590c4.css",
+    "main.js": "/static/js/main.d89a69ce.js",
+    "static/media/Devoree_Ellis_AudioBook_Reel_VO.wav": "/static/media/Devoree_Ellis_AudioBook_Reel_VO.5066f441bdb085d8c08f.wav",
+    "static/media/Devoree_Ellis_Commercial_Reel_VO.wav": "/static/media/Devoree_Ellis_Commercial_Reel_VO.d1d52f4d08e64e6bf805.wav",
     "static/media/main.jpg": "/static/media/main.49239d560af8e8a9d201.jpg",
+    "static/media/Devoree_Ellis_Narration_Reel_VO.wav": "/static/media/Devoree_Ellis_Narration_Reel_VO.fdd3e74fa60ce3be3e8e.wav",
+    "static/media/testim-2.png": "/static/media/testim-2.3169fbd219cd1461272b.png",
     "static/media/HR-graphic.png": "/static/media/HR-graphic.c625def75f0f0a587525.png",
-    "static/media/Devoree-Ellis-HR.pdf": "/static/media/Devoree-Ellis-HR.1be059817c9ea0774ec7.pdf",
+    "static/media/testim-7.png": "/static/media/testim-7.8657ca998213e67477ca.png",
+    "static/media/testim-5.jpg": "/static/media/testim-5.b8fdf4e697d91ff8023b.jpg",
+    "static/media/testim-3.png": "/static/media/testim-3.6825ab2ad9e4a6d0cace.png",
+    "static/media/Devoree-Ellis-HR.pdf": "/static/media/Devoree-Ellis-HR.d0cc3a2e0cd62c462558.pdf",
+    "static/media/testim-4.jpg": "/static/media/testim-4.a7a92d32a8fad9b736e7.jpg",
+    "static/media/header.jpg": "/static/media/header.c09b6999549fa063f375.jpg",
+    "static/media/testim-1.jpeg": "/static/media/testim-1.9c750204268c94f535de.jpeg",
     "static/media/happy.jpg": "/static/media/happy.48ab33d5f4d95b241f9d.jpg",
     "static/media/dark.jpg": "/static/media/dark.b181c3dbc293f953c50e.jpg",
     "static/media/Devoree.3b.jpg": "/static/media/Devoree.3b.a5b866adb69757529f45.jpg",
@@ -19,14 +29,15 @@
     "static/media/oc-register-logo-white.png": "/static/media/oc-register-logo-white.e66826dce05fc31dad6a.png",
     "static/media/csssa-logo-white.png": "/static/media/csssa-logo-white.43b725f4ecdb6637cd11.png",
     "static/media/stella-adler-logo-white.png": "/static/media/stella-adler-logo-white.bd994bc8d8e7028759ff.png",
-    "static/media/2024-house-of-desires.jpg": "/static/media/2024-house-of-desires.4eaf0fdf9bf2658eca7f.jpg",
     "static/media/utah-theater-blogger.png": "/static/media/utah-theater-blogger.894943c33250fb2e3ab7.png",
+    "static/media/testim-8.jpg": "/static/media/testim-8.a4b5a7649d6a8a582ee5.jpg",
+    "static/media/tmg-logo.png": "/static/media/tmg-logo.5238bfe3c51a1093eac6.png",
     "index.html": "/index.html",
-    "main.6d3013ec.css.map": "/static/css/main.6d3013ec.css.map",
-    "main.ba155cb4.js.map": "/static/js/main.ba155cb4.js.map"
+    "main.693590c4.css.map": "/static/css/main.693590c4.css.map",
+    "main.d89a69ce.js.map": "/static/js/main.d89a69ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d3013ec.css",
-    "static/js/main.ba155cb4.js"
+    "static/css/main.693590c4.css",
+    "static/js/main.d89a69ce.js"
   ]
 }
