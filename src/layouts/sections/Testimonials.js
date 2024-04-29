@@ -311,7 +311,7 @@ class Testimonials extends React.Component {
               Testimonials
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              See more of my headshots and photos from previous projects.
+              What professionals have to say about working with Devoree and seeing her perform:
             </MKTypography>
           </Grid>
           <Grid item xs={12} md={8} sx={{ textAlign: "center" }}>

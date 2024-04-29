@@ -14,10 +14,7 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Link from "@mui/material/Link";
-import Stack from "@mui/material/Stack";
+import { Container, Grid, Stack, useMediaQuery } from "@mui/material";
 import { HashLink, NavHashLink } from "react-router-hash-link";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -25,12 +22,16 @@ import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
 // Images
-import bgImage from "assets/images/graphics/dark.jpg";
+import bgImage from "assets/images/graphics/header.jpg";
+import bgImageMobile from "assets/images/graphics/dark.jpg";
 
 //Components
 import HeaderNav from "layouts/sections/HeaderNav.js";
 
+
 function Header() {
+  const isSmallScreen = useMediaQuery("(max-width:450px)");
+
   return (
     <MKBox
       component="header"
@@ -51,7 +52,7 @@ function Header() {
             `${linearGradient(
               rgba(gradients.dark.main, 0.5),
               rgba(gradients.dark.state, 0.5)
-            )}, url(${bgImage})`,
+            )}, url(${isSmallScreen ? bgImageMobile : bgImage})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -81,7 +82,7 @@ function Header() {
             <MKTypography
               variant="body1"
               color="white"
-              opacity={0.8}
+              opacity={0.9}
               pr={6}
               mr={6}
             >
@@ -89,12 +90,14 @@ function Header() {
             </MKTypography>
             <MKTypography
               variant="body2"
+              fontSize="0.9rem"
               color="white"
-              opacity={0.8}
+              opacity={0.7}
               pr={6}
               mr={6}
             >
-              Utah-based actress signed by TMG
+              Represented by TMG in Salt Lake City 
+              <a href="https://talentmg.com/talent/devoree-ellis/" target="_blank"> (contact agency)</a>
             </MKTypography>
             <Stack direction="row" spacing={1} mt={3}>
               <MKButton variant="gradient" color="info">

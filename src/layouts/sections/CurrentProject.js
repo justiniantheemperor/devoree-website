@@ -14,7 +14,7 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import { Box, Container, Grid } from "@mui/material";
+import { Box, Container, Grid, CardMedia } from "@mui/material";
 
 // Material Kit 2 React components
 import MKButton from "components/MKButton";
@@ -22,7 +22,9 @@ import MKTypography from "components/MKTypography";
 import MKBox from "components/MKBox";
 
 // Images
-import projectImg from "assets/images/graphics/2024-house-of-desires.jpg";
+// import projectImg from "assets/images/graphics/2024-house-of-desires.jpg";
+const recentProject =
+  "https://www.youtube.com/embed/pqAHSRs867g?si=VmIyLO4t_DiLMUC0";
 
 function CurrentProject() {
   return (
@@ -51,20 +53,23 @@ function CurrentProject() {
           <MKTypography variant="h3" color="white" mb={1}>
             Current Project
           </MKTypography>
-          <MKTypography variant="h5"  color="white" opacity={0.9}  mb={1}>
+          <MKTypography variant="h5" color="white" opacity={0.9} mb={1}>
             House of Desires - BYU
           </MKTypography>
-          <MKTypography variant="h5"  color="white" opacity={0.9}  mb={1}>
+          <MKTypography variant="h5" color="white" opacity={0.9} mb={1}>
             Role: Ana
           </MKTypography>
-          <MKTypography variant="body2" color="white" opacity={0.8} mb={2}>
-            Devoree is from Orange County, California. She completed her
-            training in April 2024, receiving a BFA in Acting from Brigham Young
-            University.
+          <MKTypography variant="body2" color="white" opacity={0.8} mb={2} textAlign="justify">            
+            Devoree Ellis <strong>stole each moment she was on stage...</strong>.
+            I was impressed how she managed to have such a{" "}
+            <strong>distinct range of suited reactions</strong> in each moment...
+            Ana is manipulative and Ellis was <strong>eager to play tactics</strong>{" "}
+            that would impact those around her.{" "}
+            <strong>Ana owned the story and Ellis owned the stage</strong>.”
           </MKTypography>
-          <MKButton variant="gradient" color="info">
-            Learn More
-          </MKButton>
+          <MKTypography variant="body2" color="white" opacity={0.8} mb={2} textAlign="right">
+            <i> - The Utah Theater Bloggers</i>
+            </MKTypography>
         </Box>
       </Grid>
       <Grid
@@ -80,11 +85,11 @@ function CurrentProject() {
           justifyContent: "center",
         }}
       >
-        <Box
-          component="img"
-          alt="Devoree Headshot"
-          src={projectImg}
-          height="20rem"
+        <CardMedia
+          component="iframe"
+          src={recentProject}
+          allowFullScreen="allowfullscreen"
+          sx={{ height: "20rem", width: "100%" }}
         />
       </Grid>
     </Grid>

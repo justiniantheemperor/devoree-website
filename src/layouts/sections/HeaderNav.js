@@ -32,6 +32,7 @@ import MKTypography from "components/MKTypography";
 import bgImage from "assets/images/graphics/dark.jpg";
 import MenuDropDown from "./MenuDropDown";
 import InstagramButton from "./InstagramButton";
+import YouTubeButton from "./YoutubeButton";
 
 function HeaderNav() {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -159,38 +160,11 @@ function HeaderNav() {
             m={0}
             sx={{ listStyle: "none" }}
           >
-            <MKBox component="li">
+            <MKBox component="li" p={1}>
               <InstagramButton />
             </MKBox>
-            <MKBox component="li">
-              <MKTypography
-                variant="button"
-                p={1}
-                sx={{
-                  color: "white",
-                  "&:hover": {
-                    color: "red",
-                  },
-                }}
-              >
-                <Link
-                  href="https://www.youtube.com/@devoreeellis2437"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <MKBox
-                    component="i"
-                    color="white"
-                    className="fab fa-youtube"
-                    sx={{
-                      "&:hover": {
-                        color: "red",
-                        // transition: "600ms",
-                      },
-                    }}
-                  />
-                </Link>
-              </MKTypography>
+            <MKBox component="li" p={1}>
+              <YouTubeButton/>
             </MKBox>
           </MKBox>
           <MKBox

@@ -94,6 +94,11 @@ function MenuDropDown() {
           </HashLink>
         </MenuItem>
         <MenuItem onClick={closeDropdown}>
+          <HashLink smooth to="#voiceover">
+            Voiceover
+          </HashLink>
+        </MenuItem>
+        <MenuItem onClick={closeDropdown}>
           <HashLink smooth to="#resume">
             Resume
           </HashLink>
@@ -101,6 +106,11 @@ function MenuDropDown() {
         <MenuItem onClick={closeDropdown}>
           <HashLink smooth to="#gallery">
             Gallery
+          </HashLink>
+        </MenuItem>
+        <MenuItem onClick={closeDropdown}>
+          <HashLink smooth to="#testimonials">
+            Testimonials
           </HashLink>
         </MenuItem>
         <MenuItem onClick={closeDropdown}>

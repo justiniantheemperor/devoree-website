@@ -20,6 +20,7 @@ import Grid from "@mui/material/Grid";
 import MKBox from "components/MKBox";
 
 // Images
+import tmg from "assets/images/logos/tmg-logo.png";
 import byu from "assets/images/logos/BYU monogram_white@2x.png";
 import csssa from "assets/images/logos/csssa-logo-white.png";
 import ocreg from "assets/images/logos/oc-register-logo-white.png";
@@ -32,6 +33,9 @@ function Brands() {
   return (
     <MKBox component="section" pt={3}>
         <Grid container spacing={3} sx={{justifyContent:"center", alignItems:"center"}}>
+        <Grid item xs={6} md={4} lg={2}>
+            <MKBox component="img" src={tmg} alt="Talent Management Group" width="100%" opacity={0.8} />
+          </Grid>
           <Grid item xs={6} md={4} lg={2}>
             <MKBox component="img" src={byu} alt="Brigham Young University" width="100%" opacity={0.8} />
           </Grid>

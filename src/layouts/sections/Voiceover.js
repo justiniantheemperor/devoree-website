@@ -45,7 +45,7 @@ function Voiceovers() {
               Voiceover Reels
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Devoree also enjoys recording voiceover reels in her home studio
+              Devoree also enjoys doing voiceover work from her home studio:
             </MKTypography>
           </Grid>
           <Grid container spacing={3} justifyContent="center">

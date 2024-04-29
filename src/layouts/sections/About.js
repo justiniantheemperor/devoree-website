@@ -75,41 +75,15 @@ function About() {
               <MKTypography variant="h1" color="white" mb={1}>
                 About Me
               </MKTypography>
-              <MKTypography variant="body2" color="white" opacity={0.9} mb={2}>
-                Originally from Southern California, Devoree Ellis is a recent
-                BFA Acting graduate from BYU who is exploding with excitement
-                and thrilled to be moving to New York. While she loves stage
-                acting, classical acting, musical theater, voiceover, and
-                working as a freelance dialect coach, she has found her home in
-                Acting for Film & TV. Since studying last year in the Acting for
-                Film & TV Intensive at the Stella Adler Art of Acting Studio in
-                LA for a rigorous 5 weeks (and since binging all of The Office
-                and The Marvel Infinity Saga during COVID), she’s been
-                completely smitten with film acting. Since signing with the SLC
-                Agency TMG last year, she has been having the time of her life
-                on a variety of film sets and can’t get enough.
-              </MKTypography>
-              <MKTypography variant="body2" color="white" opacity={0.9} mb={2}>
-                Favorite stage credits include: Ana in House of Desires, Matilda in Matilda the
-                Musical, Pamela/Annabella/Margaret in The 39 Steps, Gloria in
-                Wait Until Dark, Smee in Peter and the Starcatcher, Puck in A
-                Midsummer Night’s Dream, and Dorothy Gale in The Wizard of Oz,
-                among others.
-              </MKTypography>
-              <MKTypography variant="body2" color="white" opacity={0.9} mb={2}>
-                She also earned the title of "Orange County Actor
-                of the Year" from The Orange County Register, among various
-                other accolades in acting, playwriting, comedy, and musical
-                theater.
-              </MKTypography>
-              <MKTypography variant="body2" color="white" opacity={0.9} mb={2}>
-                Devoree’s long term goal is to have at least two
-                Oscars, two corgis, and to own a mansion in Malibu with her best
-                friend and partner, Justin, acting her face off and
-                collaborating with the best artists in the industry by day, and
-                working as a very posh, (yet kind,) food critic by night.
-                <br></br>
-                Instagram: @devoree_
+              <MKTypography variant="body2" color="white" opacity={0.9} mb={2}  textAlign="justify">
+                Devoree Ellis is a recent BFA Acting graduate (BYU) originally
+                from Southern California. While she loves being on stage (plays,
+                classical texts, musical theater, you name it), doing voiceover
+                work, and being a freelance dialect coach, she has found her
+                home in acting for film & TV. She’s earned the title “Orange
+                County Actor of the Year'' from <i>The Orange County Register</i>,
+                among various other accolades in acting, playwriting, comedy,
+                and musical theater.
               </MKTypography>
               <MKButton variant="gradient" color="info">
               <HashLink smooth to={"#contact"}>
