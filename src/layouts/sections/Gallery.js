@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-material-ui-carousel";
-import "layouts/styles/gallery.css";
+import "layouts/styles/carousel.css";
 
 import { useMediaQuery, Card, CardMedia, Grid, Container } from "@mui/material";
 
@@ -26,7 +26,7 @@ import happy2 from "assets/images/headshots/Devoree.3b.jpg";
 import happy3 from "assets/images/headshots/Devoree.3c.jpg";
 // import happy4 from "assets/images/headshots/Devoree.3d.jpg";
 
-function Banner(props) {
+function Gallery(props) {
   const isSmallScreen = useMediaQuery("(max-width:770px)");
 
   const totalItems = props.length ? props.length : 3;
@@ -51,8 +51,8 @@ function Banner(props) {
   }
 
   return (
-    <Container raised className="Banner">
-      <Grid container spacing={0} className="BannerGrid">
+    <Container className="Gallery">
+      <Grid container spacing={0} className="GalleryGrid">
         {items}
       </Grid>
     </Container>
@@ -159,7 +159,6 @@ class BannerExample extends React.Component {
       <MKBox
         component="section"
         position="relative"
-        py={6}
         px={{ xs: 2, lg: 0 }}
         mx={-2}
       >
@@ -193,7 +192,7 @@ class BannerExample extends React.Component {
                 }}
               >
                 {items.map((item, index) => {
-                  return <Banner item={item} key={index} />;
+                  return <Gallery item={item} key={index} />;
                 })}
               </Carousel>
             </Card>

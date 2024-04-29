@@ -136,7 +136,21 @@ function HeaderNav() {
                 </HashLink>
               </MKTypography>
             </MKBox>
+            {/* Testimonials */}
+            <MKBox component="li">
+              <MKTypography
+                variant="button"
+                color="white"
+                fontWeight="regular"
+                p={1}
+              >
+                <HashLink smooth to={"#testimonials"}>
+                  Testimonials
+                </HashLink>
+              </MKTypography>
+            </MKBox>
           </MKBox>
+
           {/* Social Buttons */}
           <MKBox
             component="ul"

@@ -60,6 +60,7 @@ const hashRoutes = [
   "voiceover",
   "resume",
   "gallery",
+  "testimonials",
   "contact",
 ];
 

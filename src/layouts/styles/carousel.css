@@ -1,0 +1,68 @@
+.Testimonial {
+  position: relative;
+  height: auto; /* Set height to auto */
+}
+
+.CarouselGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Gallery {
+  height: 400px;
+  position: relative;
+
+}
+
+.Gallery .Media {
+  background-color: white;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.Gallery .Media:hover {
+  filter: brightness(115%);
+}
+.Gallery .GalleryGrid {
+  height: 95%;
+  position: relative;
+  padding-bottom: 0px;
+}
+.Gallery .Content {
+  color: white;
+  background-color: red;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  padding: 30px;
+  transition: 300ms;
+}
+.Gallery .Content:hover,
+.Gallery .Content:active {
+  background-color: tomato;
+}
+.Gallery .Content:hover .ViewButton,
+.Gallery .Content:active .ViewButton {
+  background-color: white;
+  color: red;
+}
+.Gallery .Content .Title {
+  font-size: 42px;
+  font-weight: 500;
+}
+.Gallery .Content .Caption {
+  margin-top: 10px;
+  font-size: 24px;
+}
+.Gallery .Content .ViewButton {
+  margin-top: 40px;
+  color: white;
+  font-size: 24px;
+  border: 3px solid white;
+  text-transform: capitalize;
+  transition: 200ms;
+}

@@ -34,11 +34,12 @@ import MKButton from "components/MKButton";
 import Header from "layouts/sections/Header";
 import About from "layouts/sections/About";
 import Reels from "layouts/sections/Reels";
+import Voiceover from "./sections/Voiceover";
 import Resume from "layouts/sections/Resume";
 import Gallery from "layouts/sections/Gallery";
+import Testimonials from "./sections/Testimonials";
 import Contact from "layouts/sections/Contact";
 import Footer from "layouts/sections/Footer";
-import Voiceover from "./sections/Voiceover";
 
 function Index() {
   window.addEventListener("load", () => {
@@ -88,6 +89,9 @@ function Index() {
         </section>
         <section id="gallery">
           <Gallery />
+        </section>
+        <section id="testimonials">
+          <Testimonials />
         </section>
         <section id="contact">
           <Contact />
