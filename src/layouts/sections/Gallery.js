@@ -9,22 +9,26 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Headshots
-// import main1 from "assets/images/headshots/Devoree.1a.jpg";
-import main2 from "assets/images/headshots/Devoree.1b.jpg";
-// import main3 from "assets/images/headshots/Devoree.1c.jpg";
+import hs1 from "assets/images/headshots/1.jpg";
+import hs2 from "assets/images/headshots/2.jpg";
+import hs3 from "assets/images/headshots/3.jpg";
+import hs4 from "assets/images/headshots/4.jpg";
+import hs5 from "assets/images/headshots/5.jpg";
+import hs6 from "assets/images/headshots/6.jpg";
+import hs7 from "assets/images/headshots/7.jpg";
+import hs8 from "assets/images/headshots/8.jpg";
+import hs9 from "assets/images/headshots/9.jpg";
+import hs10 from "assets/images/headshots/10.jpg";
+import hs11 from "assets/images/headshots/11.jpg";
+import hs12 from "assets/images/headshots/12.jpg";
+import hs13 from "assets/images/headshots/13.jpg";
+import hs14 from "assets/images/headshots/14.jpg";
+import hs15 from "assets/images/headshots/15.jpg";
+import hs16 from "assets/images/headshots/16.jpg";
+import hs17 from "assets/images/headshots/17.jpg";
+import hs18 from "assets/images/headshots/18.jpg";
 
-import dark1 from "assets/images/headshots/Devoree.2a.jpg";
-import dark2 from "assets/images/headshots/Devoree.2b.jpg";
-import dark3 from "assets/images/headshots/Devoree.2c.jpg";
-import dark4 from "assets/images/headshots/Devoree.2d.jpg";
-// import dark5 from "assets/images/headshots/Devoree.2e.jpg";
-import dark6 from "assets/images/headshots/Devoree.2f.jpg";
-import dark7 from "assets/images/headshots/Devoree.2g.jpg";
 
-// import happy1 from "assets/images/headshots/Devoree.3a.jpg";
-import happy2 from "assets/images/headshots/Devoree.3b.jpg";
-import happy3 from "assets/images/headshots/Devoree.3c.jpg";
-// import happy4 from "assets/images/headshots/Devoree.3d.jpg";
 
 function Gallery(props) {
   const isSmallScreen = useMediaQuery("(max-width:770px)");
@@ -63,42 +67,81 @@ const items = [
   {
     Items: [
       {
-        Image: dark4,
+        Image: hs1,
       },
       {
-        Image: happy3,
+        Image: hs2,
       },
       {
-        Image: dark2,
+        Image: hs3,
       },
     ],
   },
   {
     Items: [
       {
-        Image: dark3,
+        Image: hs4,
       },
       {
-        Image: main2,
+        Image: hs5,
       },
       {
-        Image: dark7,
+        Image: hs6,
       },
     ],
   },
   {
     Items: [
       {
-        Image: happy2,
+        Image: hs7,
       },
       {
-        Image: dark6,
+        Image: hs8,
       },
       {
-        Image: dark1,
+        Image: hs9,
       },
     ],
   },
+  {
+    Items: [
+      {
+        Image: hs10,
+      },
+      {
+        Image: hs11,
+      },
+      {
+        Image: hs12,
+      },
+    ],
+  },
+  {
+    Items: [
+      {
+        Image: hs13,
+      },
+      {
+        Image: hs14,
+      },
+      {
+        Image: hs15,
+      },
+    ],
+  },
+  {
+    Items: [
+      {
+        Image: hs16,
+      },
+      {
+        Image: hs17,
+      },
+      {
+        Image: hs18,
+      },
+    ],
+  }
 ];
 
 class BannerExample extends React.Component {
@@ -163,7 +206,7 @@ class BannerExample extends React.Component {
         mx={-2}
       >
         <Container>
-          <Grid item xs={12} md={8} sx={{ mb: 6, textAlign: "center" }}>
+          <Grid item xs={12} md={8} sx={{ mb: 2, textAlign: "center" }}>
             <MKTypography variant="h3" color="white">
               Gallery
             </MKTypography>
