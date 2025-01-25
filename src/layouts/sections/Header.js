@@ -28,7 +28,6 @@ import bgImageMobile from "assets/images/graphics/dark.jpg";
 //Components
 import HeaderNav from "layouts/sections/HeaderNav.js";
 
-
 function Header() {
   const isSmallScreen = useMediaQuery("(max-width:450px)");
 
@@ -86,7 +85,7 @@ function Header() {
               pr={6}
               mr={6}
             >
-              Empathy • Connection • Vulnerability
+              Connection • Empathy • Authenticity
             </MKTypography>
             <MKTypography
               variant="body2"
@@ -96,8 +95,8 @@ function Header() {
               pr={6}
               mr={6}
             >
-              Represented by TMG in Salt Lake City 
-              <a href="https://talentmg.com/talent/devoree-ellis/" target="_blank"> (contact agency)</a>
+              Represented by
+              <a href="mailto:joshua@litehousemanagement.com"> Litehouse Management</a>
             </MKTypography>
             <Stack direction="row" spacing={1} mt={3}>
               <MKButton variant="gradient" color="info">

@@ -21,10 +21,9 @@ import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 import MKBox from "components/MKBox";
 
-// Images
-// import projectImg from "assets/images/graphics/2024-house-of-desires.jpg";
-const recentProject =
-  "https://www.youtube.com/embed/pqAHSRs867g?si=VmIyLO4t_DiLMUC0";
+// Video
+  const recentProject = "https://www.youtube.com/embed/yTWxktwk404?si=uY2NsrK3YVLv1oDH";
+
 
 function CurrentProject() {
   return (
@@ -51,7 +50,7 @@ function CurrentProject() {
       >
         <Box px={3} py={{ xs: 2, sm: 6 }}>
           <MKTypography variant="h3" color="white" mb={1}>
-            Current Project
+            Recent Projects
           </MKTypography>
           <MKTypography variant="h5" color="white" opacity={0.9} mb={1}>
             House of Desires - BYU
@@ -60,7 +59,7 @@ function CurrentProject() {
             Role: Ana
           </MKTypography>
           <MKTypography variant="body2" color="white" opacity={0.8} mb={2} textAlign="justify">            
-            Devoree Ellis <strong>stole each moment she was on stage...</strong>.
+          “Devoree Ellis <strong>stole each moment she was on stage...</strong>.
             I was impressed how she managed to have such a{" "}
             <strong>distinct range of suited reactions</strong> in each moment...
             Ana is manipulative and Ellis was <strong>eager to play tactics</strong>{" "}

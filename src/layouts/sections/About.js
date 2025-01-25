@@ -75,18 +75,39 @@ function About() {
               <MKTypography variant="h1" color="white" mb={1}>
                 About Me
               </MKTypography>
-              <MKTypography variant="body2" color="white" opacity={0.9} mb={2}  textAlign="justify">
-                Devoree Ellis is a recent BFA Acting graduate (BYU) originally
-                from Southern California. While she loves being on stage (plays,
-                classical texts, musical theater, you name it), doing voiceover
-                work, and being a freelance dialect coach, she has found her
-                home in acting for film & TV. She’s earned the title “Orange
-                County Actor of the Year'' from <i>The Orange County Register</i>,
-                among various other accolades in acting, playwriting, comedy,
-                and musical theater.
+              <MKTypography
+                variant="body2"
+                color="white"
+                opacity={0.9}
+                mb={2}
+                textAlign="justify"
+              >
+                Based in NYC, Devoree is a recent BFA Acting graduate (BYU)
+                originally from Southern California. She loves stage work
+                (straight plays, Shakespeare & other classical styles, musical
+                theater, improv, etc.), film & TV, voiceover, and working as a
+                freelance dialect coach. She’s earned the title “Orange County
+                Actor of the Year” from The Orange County Register, among
+                various other accolades in acting, playwriting, comedy, and
+                musical theater.
               </MKTypography>
+
+              <MKTypography
+                variant="body2"
+                color="white"
+                opacity={0.9}
+                mb={2}
+                textAlign="justify"
+              >
+                More than anything, Devoree loves connecting with people - scene
+                partners, other artists, and the audience. She loves helping
+                people feel less alone through her performances via empathy and
+                via laughter. Her favorite types of art are those that feel
+                especially human.
+              </MKTypography>
+                  
               <MKButton variant="gradient" color="info">
-              <HashLink smooth to={"#contact"}>
+                <HashLink smooth to={"#contact"}>
                   Send Message
                 </HashLink>
               </MKButton>
