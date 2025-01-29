@@ -21,7 +21,7 @@ const demoReel = "https://www.youtube.com/embed/iiJhDAp8ddg?si=WZgoUveGxAfu-NNb"
 const comedicReel = "https://www.youtube.com/embed/mzphwC6GO64?si=M5ANFOj3RY6P_ACi";
 const dramaticReel = "https://www.youtube.com/embed/8LFtlpzmdPc?si=Jtl7HsWjEVzALj2m";
 const comedy_crazystupidlove = "https://www.youtube.com/embed/NlmM458wyzw?si=Nge1ioVORAv5Kezq";
-const drama_IandYou = "https://www.youtube.com/embed/vGWNORwO4jk?si=8bsOKrmkXpxPz4dp";
+const drama_IandYou = "https://www.youtube.com/embed/YzrZJjdqihs?si=GMAlc40_iCUTwpCj";
 const drama_stardust = "https://www.youtube.com/embed/LrWNzn7kOK0?si=PpKG7gGA4AGGOEZ7";
 const houseOfDesires = "https://www.youtube.com/embed/yTWxktwk404?si=uY2NsrK3YVLv1oDH";
 const shakespeare_juliet = "https://www.youtube.com/embed/3ReNCJr4c0A?si=a5QplMhZaxRYu_vG";
