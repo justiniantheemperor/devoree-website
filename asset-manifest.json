@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8f3b8dd5.css",
-    "main.js": "/static/js/main.a97c40bd.js",
+    "main.js": "/static/js/main.f809fedb.js",
     "static/media/Devoree_Ellis_AudioBook_Reel_VO.wav": "/static/media/Devoree_Ellis_AudioBook_Reel_VO.5066f441bdb085d8c08f.wav",
     "static/media/Devoree_Ellis_Commercial_Reel_VO.wav": "/static/media/Devoree_Ellis_Commercial_Reel_VO.d1d52f4d08e64e6bf805.wav",
     "static/media/Devoree_Ellis_Narration_Reel_VO.wav": "/static/media/Devoree_Ellis_Narration_Reel_VO.fdd3e74fa60ce3be3e8e.wav",
@@ -42,10 +42,10 @@
     "static/media/testim-8.jpg": "/static/media/testim-8.a4b5a7649d6a8a582ee5.jpg",
     "index.html": "/index.html",
     "main.8f3b8dd5.css.map": "/static/css/main.8f3b8dd5.css.map",
-    "main.a97c40bd.js.map": "/static/js/main.a97c40bd.js.map"
+    "main.f809fedb.js.map": "/static/js/main.f809fedb.js.map"
   },
   "entrypoints": [
     "static/css/main.8f3b8dd5.css",
-    "static/js/main.a97c40bd.js"
+    "static/js/main.f809fedb.js"
   ]
 }
