@@ -87,7 +87,7 @@ function Header() {
             >
               Connection • Empathy • Authenticity
             </MKTypography>
-            <MKTypography
+            {/* <MKTypography
               variant="body2"
               fontSize="0.9rem"
               color="white"
@@ -97,7 +97,7 @@ function Header() {
             >
               Represented by
               <a href="mailto:joshua@litehousemanagement.com"> Litehouse Management</a>
-            </MKTypography>
+            </MKTypography> */}
             <Stack direction="row" spacing={1} mt={3}>
               <MKButton variant="gradient" color="info">
                 <HashLink smooth to={"#contact"}>
