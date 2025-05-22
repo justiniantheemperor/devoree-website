@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.8f3b8dd5.css",
-    "main.js": "/static/js/main.31cda617.js",
+    "main.js": "/static/js/main.e3b293fd.js",
     "static/media/Devoree_Ellis_AudioBook_Reel_VO.wav": "/static/media/Devoree_Ellis_AudioBook_Reel_VO.5066f441bdb085d8c08f.wav",
     "static/media/Devoree_Ellis_Commercial_Reel_VO.wav": "/static/media/Devoree_Ellis_Commercial_Reel_VO.d1d52f4d08e64e6bf805.wav",
     "static/media/Devoree_Ellis_Narration_Reel_VO.wav": "/static/media/Devoree_Ellis_Narration_Reel_VO.fdd3e74fa60ce3be3e8e.wav",
+    "static/media/Devoree-Ellis-HR.pdf": "/static/media/Devoree-Ellis-HR.a4a9ef3fa91ffad1beb9.pdf",
     "static/media/main.jpg": "/static/media/main.45b3f49a0333161ad3dd.jpg",
     "static/media/testim-2.png": "/static/media/testim-2.3169fbd219cd1461272b.png",
     "static/media/HR-graphic.png": "/static/media/HR-graphic.b6af9516c52856a673d5.png",
@@ -13,7 +14,6 @@
     "static/media/testim-3.png": "/static/media/testim-3.6825ab2ad9e4a6d0cace.png",
     "static/media/testim-4.jpg": "/static/media/testim-4.a7a92d32a8fad9b736e7.jpg",
     "static/media/header.jpg": "/static/media/header.c09b6999549fa063f375.jpg",
-    "static/media/Devoree-Ellis-HR.pdf": "/static/media/Devoree-Ellis-HR.faa626ae839a040b4c13.pdf",
     "static/media/testim-1.jpeg": "/static/media/testim-1.9c750204268c94f535de.jpeg",
     "static/media/dark.jpg": "/static/media/dark.b181c3dbc293f953c50e.jpg",
     "static/media/1.jpg": "/static/media/1.e30f54e2a60ffac765c1.jpg",
@@ -42,10 +42,10 @@
     "static/media/testim-8.jpg": "/static/media/testim-8.a4b5a7649d6a8a582ee5.jpg",
     "index.html": "/index.html",
     "main.8f3b8dd5.css.map": "/static/css/main.8f3b8dd5.css.map",
-    "main.31cda617.js.map": "/static/js/main.31cda617.js.map"
+    "main.e3b293fd.js.map": "/static/js/main.e3b293fd.js.map"
   },
   "entrypoints": [
     "static/css/main.8f3b8dd5.css",
-    "static/js/main.31cda617.js"
+    "static/js/main.e3b293fd.js"
   ]
 }
