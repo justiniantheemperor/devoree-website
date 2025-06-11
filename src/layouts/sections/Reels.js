@@ -17,6 +17,7 @@ import { Container, Grid, CardMedia } from "@mui/material";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
+
 const demoReel = "https://www.youtube.com/embed/iiJhDAp8ddg?si=WZgoUveGxAfu-NNb";
 const comedicReel = "https://www.youtube.com/embed/mzphwC6GO64?si=M5ANFOj3RY6P_ACi";
 const dramaticReel = "https://www.youtube.com/embed/8LFtlpzmdPc?si=Jtl7HsWjEVzALj2m";
@@ -26,7 +27,7 @@ const drama_stardust = "https://www.youtube.com/embed/LrWNzn7kOK0?si=PpKG7gGA4AG
 const houseOfDesires = "https://www.youtube.com/embed/yTWxktwk404?si=uY2NsrK3YVLv1oDH";
 const shakespeare_juliet = "https://www.youtube.com/embed/3ReNCJr4c0A?si=a5QplMhZaxRYu_vG";
 const shakespeare_margaret = "https://www.youtube.com/embed/2TVrK_C61uo?si=b26eyVFSZcO9BeCj";
-const singingReel = "https://www.youtube.com/embed/2a10ZG9HwWQ?si=IIySRyV8V_fQeJGr";
+const singingReel = "https://www.youtube.com/embed/xnLbi-6qbzo?si=hV2aoLsM7HfEvC2t";
 const dialectReel = "https://www.youtube.com/embed/kSPljTSwDHE?si=6Mz9yP7R1wl8gGS8";
 const fightReel = "https://www.youtube.com/embed/ocxq8HRLtcc?si=N4ks-6DzpmyNRESU";
 const shakespeareReel = "https://www.youtube.com/embed/pbK0wRTwCy4?si=8lM8nGqsd_j8fT1T";
